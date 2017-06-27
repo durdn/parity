@@ -37,8 +37,9 @@ Options:
                              parity, parity-test, geth, geth-test
                              or a path [default: parity].
     --vault VAULT            Specify vault to use in this operation.
-    --vault-pwd VAULTPWD     Specify vault password to use in this operation. Please note
-                             that this option is required when vault option is set.
+    --vault-pwd VAULTPWD     Specify a path to a file that contains the vault password 
+                             to use in this operation. Please note that this option
+                             is required when vault option is set.
                              Otherwise it is ignored.
     --src DIR                Specify import source. It may be either
                              parity, parity-test, get, geth-test
